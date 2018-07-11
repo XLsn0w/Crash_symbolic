@@ -14,6 +14,9 @@
 		661E6A9E20F5A545002F4947 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661E6A9C20F5A545002F4947 /* LaunchScreen.storyboard */; };
 		661E6AA920F5A545002F4947 /* Crash_symbolicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E6AA820F5A545002F4947 /* Crash_symbolicTests.swift */; };
 		661E6AB420F5A545002F4947 /* Crash_symbolicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E6AB320F5A545002F4947 /* Crash_symbolicUITests.swift */; };
+		661E6AC220F5B98D002F4947 /* KVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E6AC120F5B98D002F4947 /* KVC.swift */; };
+		661E6AC420F5B995002F4947 /* KVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E6AC320F5B995002F4947 /* KVO.swift */; };
+		661E6AC620F5B9B7002F4947 /* atos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E6AC520F5B9B7002F4947 /* atos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		661E6AAF20F5A545002F4947 /* Crash_symbolicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Crash_symbolicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		661E6AB320F5A545002F4947 /* Crash_symbolicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crash_symbolicUITests.swift; sourceTree = "<group>"; };
 		661E6AB520F5A545002F4947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		661E6AC120F5B98D002F4947 /* KVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVC.swift; sourceTree = "<group>"; };
+		661E6AC320F5B995002F4947 /* KVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVO.swift; sourceTree = "<group>"; };
+		661E6AC520F5B9B7002F4947 /* atos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				661E6A9320F5A543002F4947 /* AppDelegate.swift */,
 				661E6A9520F5A543002F4947 /* ViewController.swift */,
+				661E6AC120F5B98D002F4947 /* KVC.swift */,
+				661E6AC320F5B995002F4947 /* KVO.swift */,
+				661E6AC520F5B9B7002F4947 /* atos.swift */,
 				661E6A9720F5A543002F4947 /* Main.storyboard */,
 				661E6A9A20F5A545002F4947 /* Assets.xcassets */,
 				661E6A9C20F5A545002F4947 /* LaunchScreen.storyboard */,
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				661E6AC420F5B995002F4947 /* KVO.swift in Sources */,
 				661E6A9620F5A543002F4947 /* ViewController.swift in Sources */,
 				661E6A9420F5A543002F4947 /* AppDelegate.swift in Sources */,
+				661E6AC620F5B9B7002F4947 /* atos.swift in Sources */,
+				661E6AC220F5B98D002F4947 /* KVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
