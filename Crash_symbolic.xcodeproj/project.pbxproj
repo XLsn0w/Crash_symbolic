@@ -17,6 +17,8 @@
 		661E6AC220F5B98D002F4947 /* KVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E6AC120F5B98D002F4947 /* KVC.swift */; };
 		661E6AC420F5B995002F4947 /* KVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E6AC320F5B995002F4947 /* KVO.swift */; };
 		661E6AC620F5B9B7002F4947 /* atos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E6AC520F5B9B7002F4947 /* atos.swift */; };
+		661E6AC820F5CA46002F4947 /* dwarfdump_UUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E6AC720F5CA46002F4947 /* dwarfdump_UUID.swift */; };
+		661E6ACA20F5CA93002F4947 /* crash.png in Resources */ = {isa = PBXBuildFile; fileRef = 661E6AC920F5CA93002F4947 /* crash.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		661E6AC120F5B98D002F4947 /* KVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVC.swift; sourceTree = "<group>"; };
 		661E6AC320F5B995002F4947 /* KVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVO.swift; sourceTree = "<group>"; };
 		661E6AC520F5B9B7002F4947 /* atos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atos.swift; sourceTree = "<group>"; };
+		661E6AC720F5CA46002F4947 /* dwarfdump_UUID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dwarfdump_UUID.swift; sourceTree = "<group>"; };
+		661E6AC920F5CA93002F4947 /* crash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crash.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 				661E6AC120F5B98D002F4947 /* KVC.swift */,
 				661E6AC320F5B995002F4947 /* KVO.swift */,
 				661E6AC520F5B9B7002F4947 /* atos.swift */,
+				661E6AC720F5CA46002F4947 /* dwarfdump_UUID.swift */,
+				661E6AC920F5CA93002F4947 /* crash.png */,
 				661E6A9720F5A543002F4947 /* Main.storyboard */,
 				661E6A9A20F5A545002F4947 /* Assets.xcassets */,
 				661E6A9C20F5A545002F4947 /* LaunchScreen.storyboard */,
@@ -238,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				661E6ACA20F5CA93002F4947 /* crash.png in Resources */,
 				661E6A9E20F5A545002F4947 /* LaunchScreen.storyboard in Resources */,
 				661E6A9B20F5A545002F4947 /* Assets.xcassets in Resources */,
 				661E6A9920F5A543002F4947 /* Main.storyboard in Resources */,
@@ -266,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				661E6AC420F5B995002F4947 /* KVO.swift in Sources */,
+				661E6AC820F5CA46002F4947 /* dwarfdump_UUID.swift in Sources */,
 				661E6A9620F5A543002F4947 /* ViewController.swift in Sources */,
 				661E6A9420F5A543002F4947 /* AppDelegate.swift in Sources */,
 				661E6AC620F5B9B7002F4947 /* atos.swift in Sources */,
